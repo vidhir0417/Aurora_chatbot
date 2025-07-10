@@ -1,0 +1,116 @@
+{
+    "encoder_type": "openai",
+    "encoder_name": "text-embedding-3-small",
+    "routes": [
+        {
+            "name": "motivational_support",
+            "utterances": [
+                "This is way too hard for me."
+            ],
+            "description": "The user needs motivational support to continue on with their studies",
+            "function_schemas": null,
+            "llm": null,
+            "score_threshold": 0.3,
+            "metadata": {}
+        },
+        {
+            "name": "update_user_info",
+            "utterances": [
+                "Set my learning preferences to focus on reinforcement learning."
+            ],
+            "description": "The user wants to update/read/delete their personal information",
+            "function_schemas": null,
+            "llm": null,
+            "score_threshold": 0.3,
+            "metadata": {}
+        },
+        {
+            "name": "recommendations_and_learning_resources",
+            "utterances": [
+                "Can you suggest resources for learning about Computer Vision?"
+            ],
+            "description": "the user needs some recomendations of resources for their studying",
+            "function_schemas": null,
+            "llm": null,
+            "score_threshold": 0.3,
+            "metadata": {}
+        },
+        {
+            "name": "creating_quizzes",
+            "utterances": [
+                "Can you prepare a quiz on neural networks?"
+            ],
+            "description": "The user wants to receive a quizz based on provided information",
+            "function_schemas": null,
+            "llm": null,
+            "score_threshold": 0.3,
+            "metadata": {}
+        },
+        {
+            "name": "send_email",
+            "utterances": [
+                "Compose an email asking for details on the scholarship application process"
+            ],
+            "description": "The user wants to send an email to someone",
+            "function_schemas": null,
+            "llm": null,
+            "score_threshold": 0.3,
+            "metadata": {}
+        },
+        {
+            "name": "generate_citation",
+            "utterances": [
+                "Give me a citation for the deep learning research using MLA format."
+            ],
+            "description": "The user want to have a citation to a givent text from possible documents",
+            "function_schemas": null,
+            "llm": null,
+            "score_threshold": 0.3,
+            "metadata": {}
+        },
+        {
+            "name": "creating_flashcards",
+            "utterances": [
+                "Create flashcards about clustering algorithms."
+            ],
+            "description": "The user wants to generate flashcards based on provided information",
+            "function_schemas": null,
+            "llm": null,
+            "score_threshold": 0.3,
+            "metadata": {}
+        },
+        {
+            "name": "aurora_related",
+            "utterances": [
+                "What is the purpose of summarizing academic papers and other text documents in Aurora?"
+            ],
+            "description": "The user wants to know more about Aurora, the Chatbot",
+            "function_schemas": null,
+            "llm": null,
+            "score_threshold": 0.3,
+            "metadata": {}
+        },
+        {
+            "name": "study_planning",
+            "utterances": [
+                "Generate a weekly study routine for revising key Biology concepts."
+            ],
+            "description": "The user wants to have a study plan based on their preferences",
+            "function_schemas": null,
+            "llm": null,
+            "score_threshold": 0.3,
+            "metadata": {}
+        },
+        {
+            "name": "summarize_file",
+            "utterances": [
+                "Please summarize the document on machine learning fundamentals I just uploaded."
+            ],
+            "description": "The user wants to recieve the summarised text from the provided file",
+            "function_schemas": null,
+            "llm": null,
+            "score_threshold": 0.3,
+            "metadata": {}
+        }
+    ]
+}
